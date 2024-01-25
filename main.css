@@ -1,0 +1,46 @@
+body {
+    margin: 0px;
+}
+
+#section1 {
+    background-color:rgb(15, 122, 236);
+    width: auto;
+    
+}
+
+#top-header1{
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid #f50808;
+    
+   
+}
+
+#link-text{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+#link-text-item{
+    padding: 20px;
+    color: #ffffff;
+}
+
+#logo{
+    color: #ffffff;
+    padding: 20px;
+    margin-right: 200px;
+}
+
+#body1{
+    display: flex;
+    border: 2px solid #f50808;
+}
+
+#left-body1{
+    display: flex;
+    border: 2px solid #f50808;
+    
+}
