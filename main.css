@@ -5,15 +5,15 @@ body {
 #section1 {
     background-color:rgb(15, 122, 236);
     width: auto;
+    margin-bottom: 0px;
     
 }
 
 #top-header1{
     display: flex;
     justify-content: space-around;
-    border: 2px solid #f50808;
     
-   
+
 }
 
 #link-text{
@@ -36,11 +36,68 @@ body {
 
 #body1{
     display: flex;
-    border: 2px solid #f50808;
+    justify-content: center;
+    margin-bottom: 0px;
+    
 }
 
 #left-body1{
     display: flex;
-    border: 2px solid #f50808;
+    /*border: 2px solid #f50808;*/
+    flex-direction: column;
+    width: 500px;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+
+#right-body1{
+    width: 550px;
+    height: 300px;
+    background-color: grey;
+    margin: 50px;
+    margin-left: 100px;
+    padding: 50px;
+    box-sizing: border-box;
     
+}
+
+#awesome{
+    color: white;
+    font-size: 60px;
+    margin: 10px;
+    line-height: 0.9;
+}
+
+#awesome-subtext{
+    margin: 10px;
+    margin-top: 0px;
+    font-size: 20px;
+}
+
+.signup{
+    width: 30%;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+    margin-top: 0px;
+}
+
+.section2{
+    background-color:antiquewhite;
+    width: auto;
+    height: 100%;
+    margin-top: 0px;
+    border: 10px solid antiquewhite;
+}
+
+.randominfo{
+    font-size: 100px;
+}
+
+.body2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
