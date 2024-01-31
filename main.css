@@ -3,22 +3,25 @@ body {
 }
 
 #section1 {
-    background-color:rgb(15, 122, 236);
+    background-color: #1F2937;
     width: auto;
     margin-bottom: 0px;
     
 }
 
+
+
 #top-header1{
     display: flex;
     justify-content: space-around;
-    
 
+    
 }
 
 #link-text{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     
     
 }
@@ -28,10 +31,12 @@ body {
     color: #ffffff;
 }
 
-#logo{
+.logo{
     color: #ffffff;
     padding: 20px;
     margin-right: 200px;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 #body1{
@@ -73,16 +78,29 @@ body {
     margin: 10px;
     margin-top: 0px;
     font-size: 20px;
+    color: white;
 }
 
 .signup{
-    width: 30%;
-    height: 30px;
+    
     border: none;
     border-radius: 10px;
     margin: 10px;
     margin-top: 0px;
+    background-color: #3882F6;
+    
+    
 }
+
+.signuptext{
+
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+}
+
 
 .section2{
     background-color:rgb(255, 255, 255);
@@ -225,7 +243,7 @@ body {
 }
 
 .section5{
-    background-color: aqua;
+    background-color: #1F2937;
 }
 
 .text-5{
