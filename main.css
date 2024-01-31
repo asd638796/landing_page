@@ -85,19 +85,155 @@ body {
 }
 
 .section2{
-    background-color:antiquewhite;
+    background-color:rgb(255, 255, 255);
     width: auto;
     height: 100%;
     margin-top: 0px;
-    border: 10px solid antiquewhite;
-}
-
-.randominfo{
-    font-size: 100px;
-}
-
-.body2{
+    border: 10px solid white;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
+.random-info{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+
+.rects{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.rect{
+    padding: 70px;
+    border: 3px solid rgb(68, 68, 255);
+    border-radius: 15px;
+    margin: 25px;
+    margin-bottom: 0px;
+}
+
+.subtexts{
+    display: flex;
+    justify-content: space-around;
+}
+
+.caption{
+    width: 150px;
+    height:150px;
+    text-align: center;
+}
+
+.section3{
+    background-color: rgb(177, 177, 177);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.quotediv{
+    width: 650px;
+    height: 250px;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.quote{
+    font-size: 30px;
+    font-style: italic;
+    margin-bottom: 0px;
+}
+
+.sign{
+    margin-left: auto;
+    margin-top: 0px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.section4{
+    display: flex;
+    background-color: #ffffff;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.body4{
+    background-color: rgb(56, 99, 255);
+    margin: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    border-radius: 15px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+    
+}
+
+.text1-4{
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.text2-4{
+    color: white;
+    font-weight: lighter;
+    margin-top: 0px;
+}
+
+
+
+.left-body4{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+.right-body4{
+    margin-left: 50px;
+}
+
+.signup2{
+    border-radius: 5px;
+    border: 2px solid white;
+    
+    background-color: rgb(56, 99, 255);
+}
+
+.button-text{
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.section5{
+    background-color: aqua;
+}
+
+.text-5{
+    color: white;
+    text-align: center;
+    margin: 50px;
+    padding: 40px;
+    margin-bottom: auto;
+    font-size: 20px;
+}
+
